@@ -197,6 +197,7 @@
         while (count--) {
           let ball = this.balls[count];
           if (ball.show) {
+            // 获得该元素相对于视口的位置
             let rect = ball.el.getBoundingClientRect();
             let x = rect.left - 32;
             let y = -(window.innerHeight - rect.top - 22);

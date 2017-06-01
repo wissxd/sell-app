@@ -107,7 +107,7 @@
     },
     methods: {
       selectMenu(index, event) {
-        //监听到浏览器原生的点击事件，然后return掉
+        // 监听到浏览器原生的点击事件，然后return掉
         if (!event._constructed) {
           return;
         }
