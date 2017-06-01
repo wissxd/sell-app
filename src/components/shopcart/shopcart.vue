@@ -18,6 +18,7 @@
           </div>
         </div>
       </div>
+      <!-- 购物车小球动画的实现 -->
       <div class="ball-container">
         <div v-for="ball in balls">
           <transition name="drop" @before-enter="beforeDrop" @enter="dropping" @after-enter="afterDrop">
